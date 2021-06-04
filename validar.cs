@@ -78,5 +78,5 @@ namespace Administracion_Torneos
 
     }
 }
-hola julio probando la subida
+
 
