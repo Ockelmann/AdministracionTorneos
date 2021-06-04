@@ -109,6 +109,12 @@
     <Compile Include="Vista\ViewDisponibilidad_Cancha.Designer.cs">
       <DependentUpon>ViewDisponibilidad_Cancha.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vista\ViewListaEquipos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\ViewListaEquipos.Designer.cs">
+      <DependentUpon>ViewListaEquipos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vista\View_Horario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -307,6 +313,9 @@
     </Compile>
     <EmbeddedResource Include="Vista\ViewDisponibilidad_Cancha.resx">
       <DependentUpon>ViewDisponibilidad_Cancha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\ViewListaEquipos.resx">
+      <DependentUpon>ViewListaEquipos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vista\View_Horario.resx">
       <DependentUpon>View_Horario.cs</DependentUpon>
