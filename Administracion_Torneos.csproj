@@ -103,6 +103,12 @@
     <Compile Include="validar.cs" />
     <Compile Include="Vista\.Designer.cs" />
     <Compile Include="Vista\Alquiler_Arbitro.cs" />
+    <Compile Include="Vista\ReporteJugadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\ReporteJugadores.Designer.cs">
+      <DependentUpon>ReporteJugadores.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vista\ViewDisponibilidad_Cancha.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -305,6 +311,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Vista\ReporteJugadores.resx">
+      <DependentUpon>ReporteJugadores.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vista\ViewDisponibilidad_Cancha.resx">
       <DependentUpon>ViewDisponibilidad_Cancha.cs</DependentUpon>
     </EmbeddedResource>
