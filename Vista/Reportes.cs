@@ -89,5 +89,11 @@ namespace Administracion_Torneos.Vista
             ViewDisponibilidad_Cancha disponibilidad_Cancha = new ViewDisponibilidad_Cancha(bitacora,id_usuario);
             disponibilidad_Cancha.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ReporteJugadores j = new ReporteJugadores();
+            j.Show();
+        }
     }
 }
