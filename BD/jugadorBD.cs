@@ -10,7 +10,7 @@ namespace Administracion_Torneos.BD
 {
     public class jugadorBD
     {
-        private string connectionString = ("Server=DESKTOP-EJ193JG;Database=Proyecto_AdministracionTorneosFutbol;User Id=capacitacion;Password=12345;");
+        private string connectionString = ("Server=DESKTOP-FGBRIH1;Database=Proyecto_AdministracionTorneosFutbol;User Id =capacitacion; Password=12345;");
         public List<jugador> Getjugadores()
         {
             List<jugador> listj = new List<jugador>();
