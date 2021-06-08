@@ -17,7 +17,8 @@ namespace Administracion_Torneos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Lista_de_arbitross());
+            Application.Run(new View_Login());
+            // asi se llema el reporte Lista_de_arbitross
         }
     }
 }
